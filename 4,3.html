@@ -1,0 +1,28 @@
+
+<html>
+<Head>
+<meta charset="utf-8">
+</Head>
+<body>
+<h1>Estrutura Condicional(If/Else)</h1>
+<script>
+   var altura=1.58;
+   var peso=62;
+   var imc=peso/(altura*altura);
+if(imc<18.5){
+      document.write(imc+" classificação magreza");
+}else if((imc>18.5)&&(imc<24.9)){
+      document.write(imc+" classificação saudável");
+}else if((imc>25.0)&&(imc<29.9)){
+      document.write(imc+" classificação sobrepeso");
+}else if((imc>30.0)&&(imc<39.9)){
+      document.write(imc+" classificação obesidade grau 1");
+}else if((imc>35.0)&&(imc<39.9)){
+      document.write(imc+" classificação obesidade grau 2");
+}else if(imc>=40){
+      document.write(imc+" classificação obesidade grau 3(mórbida)");
+}
+</script>
+</body>
+</html>
+
